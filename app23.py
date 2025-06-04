@@ -52,7 +52,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 @st.cache_resource
 def load_model():
-    return YOLO("bestt.pt")
+    return YOLO("best (1).pt")
 
 model = load_model()
 class_names = model.names
